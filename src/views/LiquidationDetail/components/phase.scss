@@ -1,0 +1,36 @@
+.phase {
+  margin-top: 16px;
+  border: 1px solid transparent;
+  &.close {
+    opacity: 0.6;
+  }
+  &.active {
+    border: 1px solid $primary;
+    box-shadow: none;
+  }
+
+  .status {
+    @include flex-center;
+    // height: 24px;
+    margin-left: 10px;
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: #A4A5B2;
+    font-size: 14px;
+    background: rgba(#999, 0.1);
+    &.active {
+      color: #02d396;
+      background: rgba(#02d396, 0.1);
+    }
+  }
+  .countdown {
+    @include flex-center;
+    height: 34px;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: $primary;
+    background: #fef8f6;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" width="658px" height="372px" viewBox="0 0 658 372" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg big shadow</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="561" height="188"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F25430" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FA8D5E" offset="0%"></stop>
+            <stop stop-color="#F35430" offset="5.3667263%"></stop>
+            <stop stop-color="#F25430" offset="94.5814125%"></stop>
+            <stop stop-color="#F9885A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-big-shadow">
+            <path d="M30.7666224,-3.05667665e-15 L627.233378,-5.70659909e-16 C637.931602,3.31569841e-16 641.811037,1.11390733 645.722148,3.20559245 C649.63326,5.29727756 652.702722,8.36674045 654.794408,12.2778516 C656.886093,16.1889627 658,20.0683975 658,30.7666224 L658,341.233378 C658,351.931602 656.886093,355.811037 654.794408,359.722148 C652.702722,363.63326 649.63326,366.702722 645.722148,368.794408 C641.811037,370.886093 637.931602,372 627.233378,372 L30.7666224,372 C20.0683975,372 16.1889627,370.886093 12.2778516,368.794408 C8.36674045,366.702722 5.29727756,363.63326 3.20559245,359.722148 C1.11390733,355.811037 1.53527594e-15,351.931602 -2.64234052e-15,341.233378 L-9.84996032e-16,30.7666224 C5.72311061e-16,20.0683975 1.11390733,16.1889627 3.20559245,12.2778516 C5.29727756,8.36674045 8.36674045,5.29727756 12.2778516,3.20559245 C16.1889627,1.11390733 20.0683975,1.77601716e-15 30.7666224,-3.05667665e-15 Z" id="bg" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <text id="$3000" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="32" y="109">$3000</tspan>
+            </text>
+            <text id="$4000" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="32" y="55">$4000</tspan>
+            </text>
+            <polygon id="rectangle" fill="#F8F8F8" points="90 107 616 107 616 107.999646 90 107.999646"></polygon>
+            <polygon id="rectangle" fill="#F8F8F8" points="90 50 616 50 616 50.9996461 90 50.9996461"></polygon>
+            <text id="$2000" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="32" y="169">$2000</tspan>
+            </text>
+            <polygon id="rectangle" fill="#F8F8F8" points="90 41 91 41 91 288 90 288"></polygon>
+            <polygon id="rectangle" fill="#F8F8F8" points="90 167 625 167 625 167.999646 90 167.999646"></polygon>
+            <polygon id="rectangle" fill="#F8F8F8" points="90 227 625 227 625 227.999646 90 227.999646"></polygon>
+            <polygon id="rectangle" fill="#F8F8F8" points="90 287 625 287 625 287.999646 90 287.999646"></polygon>
+            <text id="$1000" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="32" y="229">$1000</tspan>
+            </text>
+            <text id="$0" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="55.702" y="289">$0</tspan>
+            </text>
+            <text id="4/5" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="114" y="316">4/5</tspan>
+            </text>
+            <text id="4/6" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="205" y="316">4/6</tspan>
+            </text>
+            <text id="4/7" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="297" y="316">4/7</tspan>
+            </text>
+            <text id="4/8" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="387" y="316">4/8</tspan>
+            </text>
+            <text id="4/9" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="479" y="316">4/9</tspan>
+            </text>
+            <text id="4/10" font-family="HaasGrotTextR-55Roman, Haas Grot Text R" font-size="14" font-weight="normal" fill="#909399">
+                <tspan x="571" y="316">4/10</tspan>
+            </text>
+            <g id="wave" transform="translate(63.000000, 109.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="mask"></g>
+                <g id="group-9" mask="url(#mask-2)">
+                    <g transform="translate(-19.444444, 108.000000)">
+                        <polygon id="path-3" stroke="none" fill="url(#linearGradient-3)" fill-rule="evenodd" opacity="0.200000003" points="0 113 67.0297986 67.3958212 143.720694 81.0347581 266.673164 34.9040279 436.581699 73.1823181 550.125665 14.0891358 741.175819 0.436670969 862.283667 55.1789437 1062.96296 2.62671829e-13 1062.96296 113"></polygon>
+                        <polyline id="path-3" stroke="url(#linearGradient-4)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" points="1.2962963 115 68.2443513 68.2465834 144.709891 75.4110389 267.64425 34.9359879 437.898673 66.0936152 550.751077 15.0592628 741.568242 1.06275206 862.917785 55.7218372 1062.96296 1"></polyline>
+                        <polygon id="rectangle" stroke="none" fill="#F25430" fill-rule="evenodd" opacity="0.5" points="430.37037 77 431.666667 77 431.666667 147 430.37037 147"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

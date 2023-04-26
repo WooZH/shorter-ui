@@ -1,0 +1,17 @@
+.hot-area {
+  @include flex;
+  background: #fff;
+  border-radius: 24px;
+  border-top-left-radius: 0;
+  padding:32px;
+  .chart {
+    flex: 2;
+    max-width: 906px;
+    margin-right: 32px;
+  }
+  .pool-token-list {
+    flex: 1;
+    min-width: 301px;
+    max-width: 549px;
+  }
+}

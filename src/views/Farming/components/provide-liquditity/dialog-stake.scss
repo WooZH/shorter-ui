@@ -1,0 +1,49 @@
+@import "~@/views/PoolDetail/components/form-control.scss";
+.dialog-stake-LP {
+  padding: 32px;
+  font-family: Haas Grot Text;
+}
+h4.title {
+  font-family: Haas Grot Disp;
+  font-weight: 600;
+  color: #11142d;
+  font-size: 18px;
+}
+.form {
+  color: #333;
+  margin-top: 48px;
+  .form-group {
+    .form-control {
+      input {
+        border-left-color: #fff;
+      }
+    }
+    .addition {
+      font-size: 12px;
+      small {
+        font-size: 12px;
+      }
+    }
+  }
+  .trading-pair {
+    @include flex-center-v;
+    .pics {
+      .front {
+        z-index: 2;
+      }
+      .behind {
+        margin-left: -8px;
+        z-index: 1;
+      }
+    }
+    span {
+      margin-left: 8px;
+      transform: translateY(1px);
+      font-weight: 600;
+      color: #333;
+    }
+  }
+  .btn-submit {
+    margin-top: 32px;
+  }
+}

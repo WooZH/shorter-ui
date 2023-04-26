@@ -1,0 +1,52 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.error-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  display: flex;
+  align-items: flex-end;
+  width: 971px;
+  height: 666px;
+  background: url("/errors//500.png") no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.notice {
+  width: 522px;
+  margin: auto;
+  font-size: 28px;
+  font-family: 'Haas Grot Text';
+  color: #333333;
+  line-height: 52px;
+  text-align: center;
+  transform: translateY(220px);
+}
+
+@media (max-width: 971px) {
+  .wrap {
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% auto;
+    background-position: center top 15vh;
+  }
+}
+
+@media (max-width: 430px) {
+  .notice {
+    font-size: 20px;
+    transform: translateY(20vw);
+  }
+}

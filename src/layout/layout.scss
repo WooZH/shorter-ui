@@ -1,0 +1,46 @@
+.layout {
+  min-width: 1280px;
+  &.down {
+    margin-top: 56px;
+    padding-bottom: 56px;
+    .sidebar {
+      padding-bottom: 56px;
+    }
+  }
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .page {
+    width: 100%;
+    height: 100%;
+    padding-left: 256px;
+    transition: 0.3s;
+    &.expand {
+      padding-left: 256px-160px;
+    }
+  }
+  .main-container {
+    @include scroller;
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    .wrap {
+      flex: 1;
+      margin: 0 3%;
+      max-width: 1536px;
+      min-height: 480px;
+      min-height: calc(100vh - 342px);
+      padding: 16px 0;
+    }
+  }
+}
+@media (min-width: 1920px) {
+  .layout {
+    .main-container {
+      .wrap {
+        margin: 0 auto;
+      }
+    }
+  }
+}

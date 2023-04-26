@@ -1,0 +1,40 @@
+@mixin flex {
+  display: flex;
+}
+@mixin flex-center-v {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-center-h {
+  display: flex;
+  justify-content: center;
+}
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin ellipsis($lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+@mixin scroller {
+  &::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #ddd;
+  }
+}

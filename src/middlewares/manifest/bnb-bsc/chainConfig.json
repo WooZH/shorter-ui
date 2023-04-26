@@ -1,0 +1,21 @@
+{
+  "name": "Bsc",
+  "networkName": "bsc",
+  "chainId": 56,
+  "chainTokenAddress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+  "chainTokenSymbol": "BNB",
+  "chainReplaceAddress": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+  "blockSpeed": 3,
+  "blockReward": 10,
+  "committeeStartBlock": 23886607,
+  "maxBlockRange": 3000,
+  "scanName": "Bscscan",
+  "scanURL": "https://bscscan.com",
+  "apiUrl": "https://bsc-api.shorter.finance",
+  "graphqlUrl": "https://bsc-api.shorter.finance/graphql",
+  "rpcURL": "/rpc/bnb",
+  "gasToken": "BNB",
+  "tokenStandard": "ERC20",
+  "usdToken": "BUSD",
+  "dexName": "pancakeswap"
+}

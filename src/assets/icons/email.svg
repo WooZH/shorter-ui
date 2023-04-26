@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+        viewBox="0 0 24 24"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>icon-mail</title>
+        <g
+          id="page-1"
+          stroke="none"
+          stroke-width="1"
+          fill="none"
+          fill-rule="evenodd">
+          <g
+            id="1280"
+            transform="translate(-1024.000000, -5979.000000)">
+            <g
+              id="group-73backup"
+              transform="translate(192.000000, 5910.000000)">
+              <g
+                id="group-9"
+                transform="translate(672.000000, 47.000000)">
+                <g
+                  id="group-16"
+                  transform="translate(0.000000, 22.000000)">
+                  <g
+                    id="icon-mail"
+                    transform="translate(160.000000, 0.000000)">
+                    <rect
+                      id="rect"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24" />
+                    <g
+                      id="group-69"
+                      transform="translate(2.000000, 2.000000)">
+                      <rect
+                        id="rect"
+                        fill="currentColor"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                        rx="4" />
+                      <rect
+                        id="rect"
+                        fill="#FFFFFF"
+                        x="4"
+                        y="5.5"
+                        width="12"
+                        height="9"
+                        rx="2" />
+                      <path
+                        id="shape"
+                        d="M13.895094,8.75001267 C14.0331652,8.98915898 13.9512276,9.29495418 13.7120813,9.43302537 L10.3075947,11.4012908 C10.2196719,11.4666273 10.1125347,11.5011268 10.0037858,11.5000727 C9.89252099,11.5011464 9.78342721,11.4653354 9.69460597,11.3976239 L6.29499116,9.43302537 C6.05584485,9.29495418 5.97390727,8.98915898 6.11197845,8.75001267 C6.25004964,8.51086636 6.55584485,8.42892878 6.79499116,8.56699997 L10.0039077,10.4189292 L13.2120813,8.56699997 C13.4512276,8.42892878 13.7570228,8.51086636 13.895094,8.75001267 Z"
+                        fill="currentColor" />
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>

@@ -1,0 +1,67 @@
+{
+  "name": "shorter-app-ui",
+  "version": "2.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode production",
+    "build:report": "vue-cli-service build --report",
+    "lint": "vue-cli-service lint",
+    "deploy:pre": "npm run build && rsync -azv --delete dist/ root@149.129.63.107:/usr/local/var/www/shorter_root/"
+  },
+  "dependencies": {
+    "@ethersproject/abi": "^5.4.0",
+    "@sentry/browser": "^6.19.7",
+    "@sentry/tracing": "^6.19.7",
+    "@sentry/vue": "^6.19.7",
+    "@svgdotjs/svg.js": "^3.1.1",
+    "@walletconnect/client": "^1.7.8",
+    "@walletconnect/qrcode-modal": "^1.7.8",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "axios": "^0.21.1",
+    "bn.js": "^5.2.1",
+    "chart.js": "3.9.1",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.10.5",
+    "ethers": "^5.4.1",
+    "ethers-multicall": "^0.2.1",
+    "number-precision": "^1.5.2",
+    "numeral": "^2.0.6",
+    "uuid": "^3.3.2",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.0-0",
+    "vue3-slider": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.2.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "blueimp-md5": "^2.19.0",
+    "compression-webpack-plugin": "^5.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-shorter": "0.0.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "lint-staged": "^9.5.0",
+    "sass": "^1.32.12",
+    "sass-loader": "10",
+    "svg-sprite-loader": "^6.0.11",
+    "vue-select": "^4.0.0-beta.3",
+    "webpack-bundle-analyzer": "^4.6.1"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}

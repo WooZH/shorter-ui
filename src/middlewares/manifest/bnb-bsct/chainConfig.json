@@ -1,0 +1,21 @@
+{
+  "name": "Bsct",
+  "networkName": "bsct",
+  "chainId": 97,
+  "chainTokenAddress": "0x79558b18663996bE94be8384267944f95E5eac93",
+  "chainTokenSymbol": "BNB",
+  "chainReplaceAddress": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+  "blockSpeed": 3,
+  "blockReward": 10,
+  "committeeStartBlock": 25061100,
+  "maxBlockRange": 5000,
+  "scanName": "Bscscan",
+  "scanURL": "https://testnet.bscscan.com",
+  "apiUrl": "https://bsct-api.shorter.finance",
+  "graphqlUrl": "https://bsct-api.shorter.finance/graphql",
+  "rpcURL": "https://rpc.ankr.com/bsc_testnet_chapel",
+  "gasToken": "BNB",
+  "tokenStandard": "ERC20",
+  "usdToken": "BUSD",
+  "dexName": "pancakeswap"
+}

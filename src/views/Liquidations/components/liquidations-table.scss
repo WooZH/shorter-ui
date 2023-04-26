@@ -1,0 +1,136 @@
+.form-search {
+  @include flex-center-v;
+  .form-control {
+    margin-left: 20px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .btn-search {
+    @include flex-center;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 20px;
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+    &:hover {
+      box-shadow: #e3e6ec 0px 5px 10px;
+    }
+  }
+}
+.panel {
+  border-top-left-radius: 0;
+}
+
+.table {
+  margin-top: 12px;
+  font-size: 14px;
+  .coin {
+    @include flex-center-v;
+    // width: 267px;
+    img {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+    .coin-icon {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+    p {
+      font-weight: 600;
+    }
+  }
+
+  small {
+    font-size: 12px;
+  }
+  .custom-t-header {
+    line-height: 18px;
+  }
+
+  // .btn {
+  //   @include flex-center;
+  //   height: 40px;
+  //   border-radius: 8px;
+  // }
+}
+.liquidations-table {
+  &.legacy,
+  &.finished {
+    .table {
+      margin-bottom: 0;
+    }
+    .load-more {
+      @include flex-center;
+      height: 56px;
+      margin-bottom: -32px;
+      span {
+        font-size: 14px;
+        font-weight: 600;
+        color: #212327;
+        padding: 12px;
+        cursor: pointer;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+  .table {
+    .phase-2 {
+      @include flex-center-v;
+      .shorter-icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 7px;
+        color: #333;
+      }
+    }
+  }
+  :deep .tag {
+    padding: 0px 7px;
+    padding-top: 2px;
+    line-height: 15px;
+  }
+}
+.long-number {
+  display: inline-block;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.table-skeleton-top {
+  margin-top: 24px;
+}
+
+.table-skeleton {
+  display: flex;
+  justify-content: space-between;
+  .skeleton {
+    margin-top: 24px;
+  }
+}
+.shorter-table {
+  th:nth-child(1) {
+    width: 180px;
+  }
+  th:nth-child(2) {
+    width: 15%;
+  }
+  th:nth-child(3) {
+    width: 15%;
+  }
+  th:nth-child(4) {
+    width: 18%;
+  }
+  th:nth-child(5) {
+    width: 18%;
+  }
+}

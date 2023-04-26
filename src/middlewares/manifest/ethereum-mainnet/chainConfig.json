@@ -1,0 +1,21 @@
+{
+  "name": "Ethereum",
+  "networkName": "mainnet",
+  "chainId": 1,
+  "apiUrl": "https://mainnet-api.shorter.finance",
+  "graphqlUrl": "https://mainnet-api.shorter.finance/graphql",
+  "gasToken": "ETH",
+  "maxBlockRange": 100000,
+  "chainTokenAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "chainTokenSymbol": "ETH",
+  "chainReplaceAddress": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+  "blockSpeed": 12,
+  "tokenStandard": "ERC20",
+  "rpcURL": "/rpc/mainnet",
+  "scanName": "Etherscan",
+  "scanURL": "https://etherscan.io",
+  "infuraName": "mainnet",
+  "usdToken": "USDT",
+  "committeeStartBlock": 15537400,
+  "dexName": "uniswap"
+}

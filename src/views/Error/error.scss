@@ -1,0 +1,49 @@
+.page-error {
+  @include flex-center;
+  text-align: center;
+  height: 100vh;
+  margin: -16px 0;
+  .notice-content {
+    @include flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 767px;
+    height: 543px+40px;
+    background: url("~@/assets/images/404.svg") no-repeat;
+    background-size: 767px 543px;
+    background-position: left 30px top -10px;
+    transform: translateY(-7%);
+    padding-bottom:18px;
+    h2 {
+      height: 36px;
+      font-size: 35px;
+      font-family: "Haas Grot Disp";
+      font-weight: 700;
+      color: $primary;
+      line-height: 53px;
+    }
+    > div {
+      margin-top: 24px;
+      p {
+        height: 29px;
+        font-size: 18px;
+        font-family: "Haas Grot Text";
+        color: #333333;
+        line-height: 29px;
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 40px;
+    width: 232px;
+    // height: 56px;
+    // border-radius: 16px;
+    // span {
+    //   font-size: 20px;
+    //   font-family: Haas Grot Disp;
+    //   font-weight: 700;
+    // }
+  }
+}
